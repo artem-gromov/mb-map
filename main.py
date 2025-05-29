@@ -209,7 +209,7 @@ for person in persons:
     folium.Marker(
         location=[person.lat, person.lon],
         popup=folium.Popup(person.popup(), max_width=300),
-        icon=folium.Icon(color="blue", icon="user", prefix="fa"),
+        icon=folium.Icon(),
     ).add_to(marker_cluster)
 
 st_folium(m,  height=500, use_container_width=True)
