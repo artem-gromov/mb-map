@@ -211,7 +211,7 @@ st.set_page_config(
     page_icon="🌍",
     layout="wide",
 )
-st.title("MB Team Map 🌍")
+st.title("Adviva Team Map 🌍")
 
 m = folium.Map(
     location=[34.6770, 33.0492], 
